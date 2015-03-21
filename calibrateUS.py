@@ -7,7 +7,7 @@ colorR = ColorSensor(port=2)
 gyro = ColorSensor(port=3)
 ultrasonic = ColorSensor(port=4)
 USAngle = 0
-USDist = 2550		#Absolute amount to turn US 360 degrees
+USDist = 2515		#Absolute amount to turn US 360 degrees
 
 #MotorInit
 def init_motor(motor):
