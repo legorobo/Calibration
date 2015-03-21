@@ -27,10 +27,6 @@ c = Motor(port=Motor.PORT.C)
 init_motor(a)
 init_motor(b)
 init_motor(c)
-#a.pulses_per_second_sp = 2000
-#b.pulses_per_second_sp = 2000
-#c.pulses_per_second_sp = 2000
-#time.sleep(5)
 a.pulses_per_second_sp = 0
 b.pulses_per_second_sp = 0
 c.pulses_per_second_sp = 2000
